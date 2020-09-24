@@ -2,13 +2,12 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;    
+    box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
 }
 
 a {
     text-decoration: none;
-    
 }
 
 body {
@@ -22,14 +21,6 @@ body {
     height: 400px;
 }
 
-.menu-abas{
-    position: absolute;
-    top: 40%;
-}
-
-.lista-nav{
-    margin: 0 0 0 20px;
-}
 
 .itens-nav{
     font-size: 32px;
@@ -41,10 +32,44 @@ body {
 
 }
 
-.itens-nav a{
+
+
+header {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+    background: url('/assets/img/sona.jpg');
+    height: 250px;
+    background-size: cover;
+}
+
+.nav-items a {    
+    font: bold 2rem 'Roboto';            
+    text-transform: uppercase;
+    margin-left: 20px;
     color: #EEDD82;
     text-shadow: 3px 2px darkblue;
+
+
 }
+/*Main - conteudo*/
+
+.titulo-principal{
+    text-align: center;
+    margin-top: 1em;
+}
+.conteiner{
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: justify;
+    margin-top: 2em;
+}
+div p{
+    margin-bottom: 1em;
+}
+
 
 /*Rodapé*/
 
@@ -55,5 +80,12 @@ body {
 
 .copyright{
     color: #000000;
-    text-align: center;
+    text-align:right;
+    margin-top: 20%;
+}
+.imagem-rodape{
+    margin-left: 25%;
+    width: 150px;
+    height: 150px;
+    display: inline-block;
 }
