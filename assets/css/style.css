@@ -1,7 +1,7 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    box-sizing: border-box;    
     font-family: 'Roboto', sans-serif;
 }
 
@@ -11,26 +11,32 @@ body {
 
 a {
     text-decoration: none;
+    
 }
 
-header {
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-
-    background: url('/assets/img/sona.jpg');
-    height: 250px;
-    background-size: cover;
+.menu-abas{
+    position: absolute;
+    top: 25%;
 }
 
-.nav-items a {    
-    font: bold 2rem 'Roboto';            
+.imagem-nav{
+    width: 100%;
+    height: 400px;
+}
+
+.itens-nav{
+    font-size: 32px;
+    display: inline;
     text-transform: uppercase;
-    margin-left: 20px;
+    font-weight: bold;
+    margin:0 0 0 20px;
+
+}
+.itens-nav a{
     color: #EEDD82;
     text-shadow: 3px 2px darkblue;
 }
 
-.copyright {
+.copyright{
     color: #000000;
 }
